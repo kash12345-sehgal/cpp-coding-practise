@@ -27,44 +27,45 @@
 // {
 // smax= arr[i];
 // }
-
+// cout<<max<<endl;
+// }
 // cout<<smax;
 
 // return 0;
 // }
-#include<iostream>
-#include<climits>
-using namespace std;
+// #include<iostream>
+// #include<climits>
+// using namespace std;
 
-int main(){
- int n;
-cin>>n;
+// int main(){
+//  int n;
+// cin>>n;
 
-int arr[n];
-for (int i=0; i<n; i++){
-cin>>arr[i];
-}
+// int arr[n];
+// for (int i=0; i<n; i++){
+// cin>>arr[i];
+// }
 
-int largest=INT_MIN;
-int secondLargest=INT_MIN;
+// int largest=INT_MIN;
+// int secondLargest=INT_MIN;
 
- for (int i=0; i<n; i++){
+//  for (int i=0; i<n; i++){
 
-     if (arr[i]>largest){
-secondLargest=largest;
-largest=arr[i];
-}
+//      if (arr[i]>largest){
+// secondLargest=largest;
+// largest=arr[i];
+// }
  
- else
-if (arr[i]>secondLargest && arr[i]!=largest)
-{
-secondLargest = arr[i];
-}
-}
-cout<<secondLargest;
+//  else
+// if (arr[i]>secondLargest && arr[i]!=largest)
+// {
+// secondLargest = arr[i];
+// }
+// }
+// cout<<secondLargest;
  
-return 0;
-}
+// return 0;
+// }
 //  #include<iostream>
 // #include<climits>
 // using namespace std;
@@ -101,3 +102,39 @@ return 0;
 // cout<<secondLargest;
 
 // return 0;
+#include <iostream>
+#include<climits>
+using namespace std;
+
+int main() {
+	int n;
+    cin>>n;
+
+    int arr[n];
+    for (int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+    
+    int max = INT_MIN;
+    int smax = INT_MIN;
+    for(int i=0;i<n;i++){
+        if(arr[i]>max){
+            smax =max;
+            max = arr[i];
+        }
+        else if(arr[i]>smax && arr[i]!=max){
+            smax= arr[i];
+        }
+    }
+    
+    if (smax == INT_MIN)
+        cout<<"second maximum cannot be found";
+        else
+        
+        cout<<max<<" "<<smax<<endl;
+    
+    	return 0;
+}
+
+
+
