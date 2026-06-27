@@ -1,0 +1,2 @@
+Rotate array
+include<alorithm> used for reverse function ()
