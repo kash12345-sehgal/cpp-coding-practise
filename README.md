@@ -17,6 +17,7 @@ I am currently learning DSA and regularly updating this repository with my solut
 | ------- |
 | [1901-find-a-peak-element-ii](https://github.com/kash12345-sehgal/cpp-coding-practise/tree/master/1901-find-a-peak-element-ii) |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/kash12345-sehgal/cpp-coding-practise/tree/master/2016-maximum-difference-between-increasing-elements) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/kash12345-sehgal/cpp-coding-practise/tree/master/2078-two-furthest-houses-with-different-colors) |
 ## Binary Search
 |  |
 | ------- |
@@ -25,4 +26,8 @@ I am currently learning DSA and regularly updating this repository with my solut
 |  |
 | ------- |
 | [1901-find-a-peak-element-ii](https://github.com/kash12345-sehgal/cpp-coding-practise/tree/master/1901-find-a-peak-element-ii) |
+## Greedy
+|  |
+| ------- |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/kash12345-sehgal/cpp-coding-practise/tree/master/2078-two-furthest-houses-with-different-colors) |
 <!---LeetCode Topics End-->
